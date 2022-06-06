@@ -15,7 +15,6 @@ int main(){
   cin.tie(0); cout.tie(0);
 
   // input data
-
   int arr_size = 1e2;
   int arr_element[arr_size];
   srand(time(NULL));
@@ -32,7 +31,7 @@ int main(){
     }
   }
   
-  // °á°ú
+  // result
   for(int i = 0; i < arr_size; i++){
     cout << arr_element[i] << "\n";
   }
