@@ -45,7 +45,7 @@ template<class T> class Queue{
       }
     }
 
-    bool isFull(){
+    bool is_full(){
       if((rear + 1) % size == front){
         return true;
       }else{
